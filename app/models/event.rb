@@ -1,4 +1,4 @@
-class Comment < ApplicationRecord
+class Event < ApplicationRecord
   belongs_to :content
 
   validates :url, presence: true
